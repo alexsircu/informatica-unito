@@ -29,7 +29,6 @@ int power(int num, int exp)
     return ret;
 }
 
-
 void test_square(int nums[], int expected_results[], int size) 
 {
     for (int i = 0; i < size; i++)
@@ -75,5 +74,4 @@ int main(void)
     int power_num_tests = sizeof(power_nums) / sizeof(power_nums[0]);
 
     test_power(power_nums, exps, power_expected_results, power_num_tests);
-
 }
