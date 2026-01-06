@@ -2,14 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-dynStringPtr createDynString(int capacity);                 // create
-void append(dynStringPtr s, char* s2);                      // append
-char* toCharStar(dynStringPtr p);                           // get the string
-void deleteDynStr(dynStringPtr p);                          // free memory
-void resetDynStr(dynStringPtr p);                           // reset the content
-int test_createDynString(void);
-void test_dynString_module(void);
-
 typedef struct 
 {
     char* content;                                          // dynamically allocated
@@ -17,6 +9,14 @@ typedef struct
     int last;                                               // first free space
     int dynamic;                                            // dynamically allocated     
 } dynString, *dynStringPtr;
+
+dynStringPtr createDynString(int capacity);                 // create
+void append(dynStringPtr s, char* s2);                      // append
+char* toCharStar(dynStringPtr p);                           // get the string
+void deleteDynStr(dynStringPtr p);                          // free memory
+void resetDynStr(dynStringPtr p);                           // reset the content
+int test_createDynString(void);
+void test_dynString_module(void);
 
 int main (void)
 {

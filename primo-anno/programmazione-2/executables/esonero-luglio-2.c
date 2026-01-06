@@ -157,7 +157,7 @@ List antiPrefix(List l, List r) {
  * IMPORTANTE: cercate sempre di far compilare il vostro codice per poter vedere il
  * risultato dei test, anche a costo di commentare parte del codice di questa funzione
  */
-int main() {
+int main(void) {
     char *string1 = "superpippo";
     char *string2 = "pippo";
     List l = NULL;

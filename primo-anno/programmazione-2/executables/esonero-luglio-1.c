@@ -114,7 +114,7 @@ List stringToList(char *s) {
  * IMPORTANTE: cercate sempre di far compilare il vostro codice per poter vedere il
  * risultato dei test, anche a costo di commentare parte del codice di questa funzione
  */
-int main() {
+int main(void) {
 
     /* INSERIRE QUI IL CODICE */
     char *s = "AZbCuu12R";

@@ -105,3 +105,8 @@ int insert(CharList *ptr, char const* s)
 
     return 1;
 }
+
+int main(void)
+{
+    return 0;
+}
