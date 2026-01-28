@@ -18,6 +18,10 @@
 - executables/esonero-17-dec-turno-1.c
 - executables/esonero-17-dec-turno-2.c
 
+## Turno 1 della seconda parte dell'esame del 9 Giugno 2025:
+- executables/seconda-parte-9-giu-turno-1-es1.c
+- executables/seconda-parte-9-giu-turno-1-es2.c
+
 ## Esercizio 1 della lezione di laboratorio del [09/04/2025](https://unito.webex.com/recordingservice/sites/unito/recording/b78f9cf9f73f103dbedf020df05f9e0e/playback):
 - implementare le funzioni insert, indexof ed indexesof
 - dopo aver implementato le funzioni, creare implementazioni con void* al posto di int
